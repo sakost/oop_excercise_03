@@ -1,3 +1,14 @@
+/**
+ * Саженов К.С.
+ * М8О-208Б-19
+ * https://github.com/sakost/oop_exercise_03
+ * Вариант 26:
+ * * Квадрат
+ * * Прямоугольник
+ * * Трапеция
+ **/
+
+
 #include "square.h"
 #include "rectangle.h"
 #include "trapezoid.h"
