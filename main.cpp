@@ -62,7 +62,9 @@ int main() {
 
     while(true){
         std::cout << ">>> ";
-        std::cin >> cmd;
+        if(!(std::cin >> cmd)){
+            break;
+        }
         if(cmd == "exit"){
             break;
         } else if(cmd == "help"){
@@ -145,6 +147,8 @@ int main() {
             error_occurred(Error::PRESENTATION_ERROR);
         }
     }
+
+    std::cout << "Bye" << std::endl;
 
     return 0;
 }
